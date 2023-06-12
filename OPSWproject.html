@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="OPSWcss.css">
+  <title>공용메모장</title>
+</head>
+<body>
+  <div class="container">
+    <h1>공용메모장</h1>
+    <form class="form">
+      <input type="text" id="NameAdd" placeholder="성함을 입력해주세요">
+      <input type="text" id="MemoAdd" placeholder="내용을 입력해주세요">
+      <button type="button" onclick="CreateMemo()">추가</button>
+    </form>
+    <input type="text" id="searchInput" placeholder="검색어를 입력하세요">
+    <button type="button" onclick="SearchMemo()">검색</button>
+    <div id="memoList">
+
+    </div>
+  </div>
+  <script src="OPSWscript.js"></script>
+</body>
+</html>
